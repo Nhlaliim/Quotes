@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
     <title>AI Quote Generator</title>
   </head>
   <body>
@@ -12,7 +13,7 @@
     </header>
 
     <main>
-      <form id=""quote-form">
+      <form id="quote-form">
         <input
           type="text"
           placeholder="Enter the topic of the quote"
@@ -20,7 +21,7 @@
           required
           autocomplete="off"
         />
-        <input type="submit" />
+        <input type="submit" class="submit-button" />
       </form>
       <div>
         <h2>Generated Quote</h2>
@@ -46,6 +47,6 @@
       >.
     </footer>
 
-    <script src="src/index.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
